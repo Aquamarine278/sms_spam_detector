@@ -29,9 +29,9 @@ The dataset used is loaded from `Resources/SMSSpamCollection.csv` and contains:
    - User input is classified as "Spam" or "Not Spam" based on trained model.
 
 ## How to Run
-1. Install dependencies:
+1. Install dependencies from requirements.txt:
    ```bash
-   pip install pandas scikit-learn gradio
+   pip install -r requirements.txt
    ```
 2. Run the script:
    ```bash
@@ -43,6 +43,7 @@ The dataset used is loaded from `Resources/SMSSpamCollection.csv` and contains:
 - **Expand the dataset** for better generalization.
 - **Use deep learning models** like LSTMs for more advanced text classification.
 - **Improve preprocessing** by including stemming and removing special characters.
+
 
 
 
